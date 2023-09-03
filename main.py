@@ -47,7 +47,7 @@ while x > 0:
         guess_count += 1
 
 with open('Cows and Bulls Scores.txt', 'a') as scores:
-    scores.write(f"You guess it in {guess_count} guesses \n")
+    scores.write(f"You guessed it in {guess_count} guesses \n")
     scores.close()
 
 print("Game Over.")
